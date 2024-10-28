@@ -10,11 +10,12 @@ let currentIndex = 0;
 // Установка слайдов
 const setSlider = (index) => {
     const slidesToShow = window.innerWidth >= 1024 ? 3 : 1;
-    currentIndex = index;
-    if (currentIndex >= totalSlides) {
-        currentIndex = 0; // переходим к первому
-    } else if (currentIndex < 0) {
-        currentIndex = totalSlides - 1; // переходим к последнему
+    if (index >= totalSlides) {
+        currentIndex = 0; 
+    } else if (index < 0) {
+        currentIndex = totalSlides - slidesToShow; 
+    } else {
+        currentIndex = index;
     }
 
     // Обновляем номер слайда
@@ -23,16 +24,14 @@ const setSlider = (index) => {
     // Скрываем все слайды и отображаем нужные
     slides.forEach((slide, index) => {
         if (window.innerWidth >= 1024) {
-            // На ширине 1024 и больше показываем 3 слайда
             slide.style.display = (index >= currentIndex && index < currentIndex + slidesToShow) ? 'block' : 'none';
         } else {
-            // На меньших ширинах показываем только 1 слайд
             slide.style.display = (index === currentIndex) ? 'block' : 'none';
         }
     });
 };
 
-// Инициализация первого слайда
+
 setSlider(currentIndex);
 
 next.addEventListener('click', () => {

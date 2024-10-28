@@ -1,3 +1,6 @@
+.slider {
+    overflow-x: hidden;
+}
 .vasyuki {
     position: relative;
     margin-top: 102px;

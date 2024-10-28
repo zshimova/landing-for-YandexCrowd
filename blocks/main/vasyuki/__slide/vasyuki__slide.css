@@ -2,7 +2,9 @@
     width: 100%; 
     box-sizing: border-box; 
     padding: 62px 20px 0;
+    transition: transform 0.5s ease;
 }
+
 
 @media (max-width: 768px) {
     .vasyuki__slide {

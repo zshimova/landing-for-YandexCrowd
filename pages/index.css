@@ -111,11 +111,12 @@
     padding: 0;
     box-sizing: border-box;
     color: var(--most-text);
+    /* overflow-x: hidden; */
 }
 
 body {
     font-family: 'Golos Text', sans-serif;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .container {
@@ -124,23 +125,3 @@ body {
     width: 100%;
     max-width: 1222px;
 }
-
-
-/*  */
-.experiment {
-    position: relative;
-    width: 300px;
-    overflow: hidden;
-  }
-  
-  .experiment-slider {
-    display: flex;
-    transition: transform 0.3s ease;
-  }
-  
-  .experiment-slider__slide {
-    min-width: 100%;
-    box-sizing: border-box;
-    text-align: center;
-    background-color: #f2f2f2;
-  }
