@@ -1,0 +1,35 @@
+.chess{
+    padding-top: 20px;
+    position: relative;
+    background-color: var(--beige);
+    z-index: 0;
+}
+
+.chess::after {
+    position: absolute;
+    content: '';
+    background-image: url('../../../src/background.svg');
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    z-index: -1;
+}
+
+.chess .container {
+    overflow: hidden;
+}
+
+@media screen and (max-width: 767px) {
+    .chess .container {
+        position: relative;
+    }
+
+}
+
+@media screen and (max-width: 1023px) {
+    .chess {
+        overflow: hidden;
+    }
+}

@@ -1,0 +1,11 @@
+.vasyuki__slide_p {
+    font-size: 18px;
+    line-height: 120%;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 766px) {
+    .vasyuki__slide_p {
+    max-width: 295px;
+    }
+}

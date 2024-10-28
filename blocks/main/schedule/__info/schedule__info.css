@@ -1,0 +1,41 @@
+.schedule__info {
+    padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.schedule__info:not(:last-child) {
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--schedule-line);
+}
+
+.schedule__info:last-child {
+    margin-bottom: 40px;
+}
+
+.lined-through {
+    padding-right: 8px;
+    text-decoration: line-through;
+    text-decoration-color: var(--red); 
+}
+
+@media screen and (min-width: 1024px) {
+    .schedule__info {
+        position: relative;
+        flex-direction: row;
+    }
+
+    .schedule__info::after {
+        position: absolute;
+        content: '';
+        border-right: 1px solid var(--schedule-line);
+        height: 100%;
+        top: 10px;
+        right: 50%;
+    }
+
+    .schedule__info span {
+        width: 100%;
+    }
+}

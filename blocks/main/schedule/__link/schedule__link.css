@@ -1,0 +1,10 @@
+.schedule__link  {
+    margin-top: 40px;
+    text-decoration: none;
+}
+.schedule__link p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+    color: var(--link);
+}

@@ -1,0 +1,48 @@
+.vasyuki__slide {
+    width: 100%; 
+    box-sizing: border-box; 
+    padding: 62px 20px 0;
+}
+
+@media (max-width: 768px) {
+    .vasyuki__slide {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        min-width: 90%;
+        flex: 0 0 auto;
+        background-image: url('../../../../src/cooper-union-stamp-paper.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .slide-1,
+    .slide-2,
+    .slide-4,
+    .slide-5 {
+        display: none;
+    }
+}
+
+
+@media (min-width: 769px)  {
+    .mobile {
+        display: none;
+    }
+}
+
+@media (min-width: 769px)  {
+    .vasyuki__slide {
+        width: auto;
+        height: 100%;
+        gap: 35px;
+    }    
+}
+
+@media (min-width: 1024px) {
+    .vasyuki__slide {
+        padding: 0;
+    }
+}
+

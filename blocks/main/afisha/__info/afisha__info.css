@@ -1,0 +1,20 @@
+.afisha__info {
+    margin-bottom: 14px;
+    position: relative;
+}
+
+@media screen and (max-width:1023px) {
+  .afisha__info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 24px
+  }
+}
+
+@media screen and (min-width: 1024px) {
+      .afisha {
+        margin-top: 40px;
+      }
+}

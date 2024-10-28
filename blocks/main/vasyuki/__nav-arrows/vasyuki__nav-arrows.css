@@ -1,0 +1,13 @@
+.vasyuki__nav-arrows {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+}
+
+@media (min-width: 769px)  {
+    .vasyuki__nav-arrows {
+        display: none;
+    }
+}

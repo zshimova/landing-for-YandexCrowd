@@ -1,0 +1,32 @@
+.chess h1 {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 24px;
+    font-size: 36px;
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 400;
+    line-height: 110%;
+}
+
+.left-side {
+    text-align: left; 
+}
+
+.center {
+    text-align: center; 
+}
+
+.right-side {
+    align-self: flex-end;
+    text-align: right;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .chess__container {
+        max-width: 542px;
+    }
+    .chess h1 {
+        font-size: 60px;
+    }
+}

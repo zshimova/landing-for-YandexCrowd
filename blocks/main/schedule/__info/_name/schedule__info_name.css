@@ -1,0 +1,9 @@
+.schedule__info_name {
+    font-weight: 600;
+}
+
+@media screen and (min-width: 1024px) {
+    .schedule__info_name {
+        padding-left: 16px;
+    }
+}

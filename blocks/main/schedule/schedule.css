@@ -1,0 +1,36 @@
+.schedule {
+    margin-bottom: 120px;
+    font-size: 20px;
+}    
+
+.man-with-chess {
+    margin-bottom: 24px;
+}
+
+.man-with-chess .chess-players-img {
+    padding: 0;
+    border-radius: 0%;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .afisha-and-schedule {
+        position: relative;
+        margin: auto;
+        max-width: 1240px;
+    }
+
+    .schedule {
+        display: flex;
+        gap: 44px;
+    }
+
+    .man-with-chess {
+        width: 474px;
+    }
+
+    .man-with-chess .chess-players-img {
+        width: 474px;
+        max-width: 474px;
+     }
+}

@@ -1,0 +1,13 @@
+.header__title {
+    font-size: 14.42px;
+    font-weight: bold;
+    line-height: 108%;
+    color: var(--header-main);
+    z-index: 3
+}
+
+@media screen and (min-width: 1024px) {
+    .header__title {
+        font-size: 16.65px;
+    }
+}

@@ -1,0 +1,19 @@
+.participants__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.participants__container h2 {
+    padding-bottom: 40px;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 36px;
+    line-height: 110%;
+    font-weight: 400;
+}
+
+@media screen and (min-width: 1024px) {
+    .participants__container h2 {
+        padding-bottom: 60px;
+    }
+}

@@ -1,0 +1,24 @@
+.vasyuki__img-block {
+    position: absolute;
+    z-index: 3;
+}
+
+@media screen and (min-width:769px) and (max-width: 1023px) {
+    .vasyuki__img-block {
+        right: 0px;
+        top: 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    .vasyuki__img-block {
+        right: 0px;
+        bottom: 0;
+    }
+}
+
+@media screen and (min-width: 1336px) {
+    .vasyuki__img-block{
+        right: -34px;
+    }
+}

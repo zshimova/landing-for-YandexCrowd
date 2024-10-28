@@ -1,0 +1,18 @@
+.participants__slide {
+    margin: 10px; 
+    display: none; 
+}
+
+
+@media screen and (max-width: 1023px) {
+    .participants__slide {
+        display: block; 
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .participants__slide {
+        display: none; 
+    }
+}

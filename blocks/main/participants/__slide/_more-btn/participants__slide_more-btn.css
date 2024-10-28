@@ -1,0 +1,16 @@
+
+.participants__slide_more-btn {
+    margin: 20px auto 40px;
+    padding: 12px;
+    font-size: 16px;
+    line-height: 120%;
+    background: none;
+    border: 1px solid var(--link);
+    border-radius: 62px;
+    color: var(--link);
+}
+
+.participants__slide_more-btn:hover {
+    background-color: var(--link);
+    color: var(--white);
+}

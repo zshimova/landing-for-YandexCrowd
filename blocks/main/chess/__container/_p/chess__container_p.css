@@ -1,0 +1,12 @@
+.chess__container_p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0;
+}
+
+@media screen and (min-width: 789px) {
+    .chess__container_p {
+        text-align: center;
+    }
+}

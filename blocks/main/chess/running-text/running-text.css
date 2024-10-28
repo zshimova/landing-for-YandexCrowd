@@ -1,0 +1,38 @@
+.running-text {
+    padding: 10px;
+    display: flex;
+    white-space: nowrap;
+    background-color: var(--red);
+    width: 100%; 
+    overflow: hidden; 
+}
+
+.running-text__content {
+    display: flex;
+    animation: running-animation 20s linear infinite;
+}
+
+.running-text p,
+.running-text img {
+    flex-shrink: 0;
+    margin-right: 20px; 
+
+}
+
+@keyframes running-animation {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.running-text p {
+    font-size: 16px;
+    line-height: 110%;
+    font-weight: 600;
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: var(--white);
+}
