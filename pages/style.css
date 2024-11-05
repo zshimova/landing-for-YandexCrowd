@@ -6,35 +6,35 @@
 @import url('/blocks/header/__title/header__title.css');
 /* main */
 /* chess */
-@import url('../blocks/main/chess/chess.css');
-@import url('../blocks/main/chess/__container/chess__container.css');
-@import url('../blocks/main/chess/__container/_p/chess__container_p.css');
-@import url('../blocks/main/chess/__buttons/chess__buttons.css');
-@import url('../blocks/main/chess/__img-block/chess__img-block.css');
-@import url('../blocks/main/chess/running-text/running-text.css');
+@import url('/blocks/main/chess/chess.css');
+@import url('/blocks/main/chess/__container/chess__container.css');
+@import url('/blocks/main/chess/__container/_p/chess__container_p.css');
+@import url('/blocks/main/chess/__buttons/chess__buttons.css');
+@import url('/blocks/main/chess/__img-block/chess__img-block.css');
+@import url('/blocks/main/chess/running-text/running-text.css');
 /* afisha */
-@import url('../blocks/main/afisha/afisha.css');
-@import url('../blocks/main/afisha/__info/afisha__info.css');
-@import url('../blocks/main/afisha/__info/_p/afisha__info_p.css');
+@import url('/blocks/main/afisha/afisha.css');
+@import url('/blocks/main/afisha/__info/afisha__info.css');
+@import url('/blocks/main/afisha/__info/_p/afisha__info_p.css');
 /* schedule */
-@import url('../blocks/main/schedule/schedule.css');
-@import url('../blocks/main/schedule/__chess/schedule__chess.css');
-@import url('../blocks/main/schedule/__common-container/schedule__common-container.css');
-@import url('../blocks/main/schedule/__info/schedule__info.css');
-@import url('../blocks/main/schedule/__info/_place/schedule__info_place.css');
-@import url('../blocks/main/schedule/__info/_name/schedule__info_name.css');
-@import url('../blocks/main/schedule/__link/schedule__link.css');
+@import url('/blocks/main/schedule/schedule.css');
+@import url('/blocks/main/schedule/__chess/schedule__chess.css');
+@import url('/blocks/main/schedule/__common-container/schedule__common-container.css');
+@import url('/blocks/main/schedule/__info/schedule__info.css');
+@import url('/blocks/main/schedule/__info/_place/schedule__info_place.css');
+@import url('/blocks/main/schedule/__info/_name/schedule__info_name.css');
+@import url('/blocks/main/schedule/__link/schedule__link.css');
 /* vasyuki */
-@import url('../blocks/main/vasyuki/vasyuki.css');
-@import url('../blocks/main/vasyuki/__title/vasyuki__title.css');
-@import url('../blocks/main/vasyuki/__link/vasyuki__link.css');
-@import url('../blocks/main/vasyuki/__img-block/vasyuki__img-block.css');
-@import url('../blocks/main/vasyuki/__text/vasyuki__text.css');
-@import url('../blocks/main/vasyuki/__slider/vasyuki__slider.css');
-@import url('../blocks/main/vasyuki/__slide/vasyuki__slide.css');
-@import url('../blocks/main/vasyuki/__slide/_p/vasyuki__slide_p.css');
-@import url('../blocks/main/vasyuki/__nav-dots/vasyuki__nav-dots.css');
-@import url('../blocks/main/vasyuki/__nav-arrows/vasyuki__nav-arrows.css');
+@import url('/blocks/main/vasyuki/vasyuki.css');
+@import url('/blocks/main/vasyuki/__title/vasyuki__title.css');
+@import url('/blocks/main/vasyuki/__link/vasyuki__link.css');
+@import url('/blocks/main/vasyuki/__img-block/vasyuki__img-block.css');
+@import url('/blocks/main/vasyuki/__text/vasyuki__text.css');
+@import url('/blocks/main/vasyuki/__slider/vasyuki__slider.css');
+@import url('/blocks/main/vasyuki/__slide/vasyuki__slide.css');
+@import url('/blocks/main/vasyuki/__slide/_p/vasyuki__slide_p.css');
+@import url('/blocks/main/vasyuki/__nav-dots/vasyuki__nav-dots.css');
+@import url('/blocks/main/vasyuki/__nav-arrows/vasyuki__nav-arrows.css');
 /* participants */
 @import url('../blocks/main/participants/participants.css');
 @import url('../blocks/main/participants/__container/participants__container.css');
