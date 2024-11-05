@@ -7,7 +7,7 @@
 .header::after {
     position: absolute;
     content: '';
-    background-image: url('../../src/background.svg');
+    background-image: url('../../background.svg');
     top: 0;
     left: 0;
     width: 100%;

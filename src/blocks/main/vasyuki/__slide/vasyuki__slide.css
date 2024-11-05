@@ -14,7 +14,7 @@
         align-items: center;
         min-width: 90%;
         flex: 0 0 auto;
-        background-image: url('../../../../src/cooper-union-stamp-paper.svg');
+        background-image: url('../../../../cooper-union-stamp-paper.svg');
         background-size: cover;
         background-repeat: no-repeat;
     }
